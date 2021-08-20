@@ -1,10 +1,10 @@
-K,M=input().split()
-sqrt_arr=[]
-for i in range(int(K)):
-    L = list(map(int, input().split()))
-    N=L[0]
-    L.remove(L[0])
+k,m =input().split()
+sqrt_a=[]
+for i in range(int(k)):
+    l = list(map(int, input().split()))
+    n=l[0]
+    l.remove(l[0])
     
-    max_L=max(L)
-    sqrt_arr.append(max_L**2)
-print(sum(sqrt_arr)%int(M))
+    max_l=max(l)
+    sqrt_a.append(max_l**2)
+print(sum(sqrt_a)%int(m))
